@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  web:
+  - apiVersion: v2
+    appVersion: 1.22.0
+    created: "2023-03-24T04:03:22.997579371Z"
+    description: A Helm chart for Kubernetes
+    digest: 709b41bc683a91c628ac50454aa3b97af484fb972fc06abbe7c7aee7a9bb52f7
+    name: web
+    type: application
+    urls:
+    - https://github.com/common-charts/common-charts/releases/download/web-0.1.0/web-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-24T04:03:22.997585072Z"
