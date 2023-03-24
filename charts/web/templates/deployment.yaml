@@ -20,9 +20,9 @@ spec:
       labels:
         {{- include "web.selectorLabels" . | nindent 8 }}
     spec:
-      {{- with .Values.imagePullSecrets }}
+      {{- if .Values.imagesPullSecret.secretName }}
       imagePullSecrets:
-        {{- toYaml . | nindent 8 }}
+        - name: {{.Values.imagesPullSecret.secretName}}
       {{- end }}
       serviceAccountName: {{ include "web.serviceAccountName" . }}
       securityContext:
