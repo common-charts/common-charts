@@ -21,7 +21,7 @@ imagesPullSecret:
   password: 
 
 # args for pod
-args: {}
+args: []
   # - --spring.profiles.active=test
 
 serviceAccount:
