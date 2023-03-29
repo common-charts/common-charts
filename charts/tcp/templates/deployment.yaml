@@ -39,6 +39,13 @@ spec:
             - {{ . | quote}}
             {{- end }}
           {{- end}}
+          {{- if .Values.env }}
+          env:
+            {{- range .Values.env }}
+            - name:  {{ .name | quote }}
+              value: {{ .value | quote }}
+            {{- end }}
+          {{- end }}
           ports:
             - name: tcp
               containerPort: {{ .Values.service.port }}
