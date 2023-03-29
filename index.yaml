@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  tcp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-29T08:30:31.045320971Z"
+    description: A Helm chart for Kubernetes
+    digest: b5c6b841ab84d42ec575cc7d683d7ef5f56d5521ef77fb9e7895e210ffb44282
+    name: tcp
+    type: application
+    urls:
+    - https://github.com/common-charts/common-charts/releases/download/tcp-0.1.0/tcp-0.1.0.tgz
+    version: 0.1.0
   web:
   - apiVersion: v2
     appVersion: 1.22.0
@@ -81,4 +92,4 @@ entries:
     urls:
     - https://github.com/common-charts/common-charts/releases/download/web-0.1.0/web-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-29T07:41:36.6505195Z"
+generated: "2023-03-29T08:30:31.045338471Z"
