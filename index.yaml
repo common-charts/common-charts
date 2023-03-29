@@ -3,6 +3,16 @@ entries:
   web:
   - apiVersion: v2
     appVersion: 1.22.0
+    created: "2023-03-29T03:58:38.804811466Z"
+    description: A Common Helm chart for Kubernetes
+    digest: 975dfd1c0736e32a53187fa037881fb3055fc6c9d676135f0c39b6bac6c43cf1
+    name: web
+    type: application
+    urls:
+    - https://github.com/common-charts/common-charts/releases/download/web-0.5.0/web-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.22.0
     created: "2023-03-29T02:02:43.116786092Z"
     description: A Common Helm chart for Kubernetes
     digest: 1643c1c90f1158a8ea4f080ed23fa7e9263c0d6e6c8348eacb10e759ac0cfd93
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/common-charts/common-charts/releases/download/web-0.1.0/web-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-29T02:02:43.116807493Z"
+generated: "2023-03-29T03:58:38.804829066Z"
