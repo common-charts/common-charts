@@ -20,6 +20,10 @@ imagesPullSecret:
   username: 
   password: 
 
+# args for pod
+args: {}
+  # - --spring.profiles.active=test
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: false
