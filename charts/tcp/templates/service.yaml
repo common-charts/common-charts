@@ -11,5 +11,8 @@ spec:
       targetPort: tcp
       protocol: TCP
       name: tcp
+      {{- if .Values.service.nodePort }}
+      nodePort: {{ .Values.service.nodePort }}
+      {{- end }}
   selector:
     {{- include "tcp.selectorLabels" . | nindent 4 }}
