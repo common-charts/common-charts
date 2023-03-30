@@ -45,5 +45,11 @@ helm lint --strict
 ## 模拟测试
 ```
 cd charts/web
-helm template . | more
+helm template .
+```
+
+## install
+```
+cd charts/web
+helm install my-app .
 ```
